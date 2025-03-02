@@ -10,7 +10,7 @@ document.getElementById("contact-form").addEventListener("submit", async functio
     };
 
     try {
-        const response = await fetch('http://127.0.0.1:8000/info/contact/', {
+        const response = await fetch('https://portfolio-backend-5i77.onrender.com/info/contact/', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
