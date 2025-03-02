@@ -1,0 +1,422 @@
+/* Global Styles */
+body {
+    width: 90%;
+    margin: auto;
+    font-family: 'Arial', sans-serif;
+    background-color: #1A1A1D; /* Dark, rich background */
+}
+
+section {
+    width: 90%; /* Ensure all sections take 90% of the width */
+    margin: auto; /* Center the section */
+    padding: 60px 0;
+    background-color: #1A1A1D; /* Dark background for sections */
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+/* Home Section */
+#home {
+    background: url('Image/background.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 100px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    height: 800px;
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#home p {
+    max-width: 800px; /* Set a fixed width */
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1, h2, h4 {
+    color: #ffffff; /* Soft white color for headings */
+}
+
+.profile-img {
+    margin-top: 100px;
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #ffffff; 
+}
+
+/* Navbar */
+.navbar {
+    width: 90%;
+    margin: auto;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color:#1A1A1D;
+    padding: 10px; 
+    margin-bottom: 20px;
+    
+}
+
+.nav-item {
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.navbar .nav-link {
+    color: #FFF;
+}
+
+.navbar .nav-link:hover {
+    color: #c67db1;
+}
+
+.navbar .navbar-brand {
+    color: #FFF;
+    font-size: 35px;
+}
+
+.navbar .navbar-brand:hover {
+    color: #c67db1;
+}
+
+/* About Me Section */
+#about {
+    width: 90%;
+    margin: auto;
+    padding: 60px 0;
+    background-color: #1A1A1D; /* Dark background */
+    border-radius: 10px;
+}
+
+
+.about-container .img-fluid {
+    max-width: 300px; /* Restrict image width */
+    border-radius: 10px;
+}
+
+.about-container p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.connect {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.connect a {
+    min-width: 150px; /* Ensures uniform button size */
+}
+
+.custom-git-btn{
+    margin-left: 10px;
+    border-color: rgb(35, 100, 212) !important; /* Ensure the border color */
+    color: #ffffff !important;
+}
+
+.custom-git-btn:hover {
+    background-color: rgb(35, 100, 212) !important; /* Background on hover */
+    color: #fff !important; /* Text color on hover */
+}
+.custom-linkedin-btn {
+    border-color: #c67db1 !important; /* Ensure the border color */
+    color: #7b9dfa !important; /* Text color */
+}
+
+.custom-linkedin-btn:hover {
+    background-color: #c67db1 !important; /* Background on hover */
+    color: #fff !important; /* Text color on hover */
+}
+
+/* Style for Education Section */
+#education {
+    background-color: #cccfd1; /* Light background color for contrast */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for the entire section */
+    padding: 2rem 0;
+}
+
+/* General Structure of Education Items */
+.edu-item {
+    background-color: white; /* White background for each education item */
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for each row */
+    transition: box-shadow 0.3s ease-in-out; /* Smooth transition on hover */
+}
+
+.edu-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+/* Heading Styling */
+#education h2 {
+    font-size: 2.5rem; /* Larger font size for emphasis */
+    font-weight: bold;
+    color: #343a40; /* Darker text color */
+}
+
+/* Styling for Education Item Description */
+.edu-item .descrip h3 {
+    font-size: 1.5rem;
+    color: #343a40;
+    font-weight: bold;
+}
+
+.edu-item .descrip p {
+    font-size: 1.1rem;
+    color: #495057;
+}
+
+/* Certificate Link Icon */
+.certificate-link a {
+    font-size: 1.5rem;
+    color: #007bff;
+    text-decoration: none;
+    padding: 0.75rem;
+    border-radius: 50%;
+    background-color: #f1f3f5;
+    border: 2px solid #007bff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.certificate-link a:hover {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+/* Optional: Adjust size for the icon */
+.certificate-link i {
+    font-size: 1.5rem;
+}
+
+.skill-icon{
+    width: 70px;
+    height: 70px;
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.programming h2{
+    padding: 10px;
+}
+
+/* Soft Skills Section */
+.soft {
+    background-color: #f8f9fa; /* Light background */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin: auto;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+/* Title Styling */
+.soft-title {
+    text-align: center;
+    font-size: 3rem;
+    color: #1c1f21;
+    margin-bottom: 0px;
+}
+
+/* Each Section Styling */
+.soft-section {
+    background: white;
+    padding: 1.5rem;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Headings */
+.soft-section h2 {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #151718;
+}
+
+/* Icons */
+.icon {
+    width: 30px;
+}
+
+/* List Styling */
+.soft-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.soft-list li {
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+/* Links */
+.soft-list a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
+.soft-list a:hover {
+    color: #0056b3;
+}
+
+.card{
+    margin-bottom: 30px;
+}
+.card img{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+
+button{
+    margin-bottom: 7px;
+}
+.contact-section {
+    background: linear-gradient(to right, #f8f9fa, #eef1f6);
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.contact-form {
+    flex: 1;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    height: 100px;
+    resize: none;
+}
+
+.submit-btn {
+    background-color: black;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #333;
+}
+
+.contact-info {
+    flex: 1;
+    max-width: 300px;
+    text-align: left;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.info-item i {
+    font-size: 20px;
+    color: black;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #343a40;
+    padding: 30px 0;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+}
+
+footer p {
+    margin: 0;
+    font-weight: 500;
+}
+
+footer a {
+    color: #f8f9fa;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #ff6347; /* Change to your preferred color on hover */
+}
+
+footer .social-icons {
+    margin: 20px 0;
+}
+
+footer .social-icons a {
+    font-size: 1.5rem;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+footer .social-icons a:hover {
+    transform: scale(1.2);
+}
+
+
+
+@media (max-width: 768px) {
+    .contact-wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-info {
+        text-align: center;
+    }
+    footer {
+        font-size: 0.9rem;
+    }
+
+    footer .social-icons a {
+        font-size: 1.2rem;
+    }
+}
+
