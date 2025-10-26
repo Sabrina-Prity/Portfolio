@@ -16,8 +16,9 @@ section {
 }
 
 /* Home Section */
-#home {
-    background: url('Image/background.jpg') no-repeat center center/cover;
+ #home {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                url('Image/background.jpg') no-repeat center center/cover;
     color: white;
     padding: 100px 0;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
@@ -27,11 +28,12 @@ section {
     border-radius: 10px;
 }
 
+
 #home p {
-    max-width: 800px; /* Set a fixed width */
+    max-width: 850px; /* Set a fixed width */
     margin: 0 auto;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 h1, h2, h4 {
@@ -39,9 +41,9 @@ h1, h2, h4 {
 }
 
 .profile-img {
-    margin-top: 100px;
-    width: 210px;
-    height: 210px;
+    margin-top: 220px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     object-fit: cover;
     border: 5px solid #ffffff; 
@@ -84,9 +86,9 @@ h1, h2, h4 {
 
 /* About Me Section */
 #about {
-    width: 90%;
+    width: 100%;
     margin: auto;
-    padding: 60px 0;
+    padding: 40px 0;
     background-color: #1A1A1D; /* Dark background */
     border-radius: 10px;
 }
@@ -131,127 +133,80 @@ h1, h2, h4 {
     color: #fff !important; /* Text color on hover */
 }
 
-/* Style for Education Section */
-#education {
-    background-color: #cccfd1; /* Light background color for contrast */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for the entire section */
-    padding: 2rem 0;
+
+
+/* General Section Styling */
+#skills {
+    width: 90%;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-top: 100px;
 }
 
-/* General Structure of Education Items */
-.edu-item {
-    background-color: white; /* White background for each education item */
-    padding: 0.7rem;
-    margin-bottom: 1.5rem;
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for each row */
-    transition: box-shadow 0.3s ease-in-out; /* Smooth transition on hover */
+/* Skill Title */
+.skill-title {
+    font-size: 2.5rem;
+    color: #1c1f21;
+    font-weight: 700;
+    margin-bottom: 50px;
 }
 
-.edu-item:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
-}
-
-/* Heading Styling */
-#education h2 {
-    font-size: 2.5rem; /* Larger font size for emphasis */
-    font-weight: bold;
-    color: #343a40; /* Darker text color */
-}
-
-/* Styling for Education Item Description */
-.edu-item .descrip h3 {
-    font-size: 1.5rem;
-    color: #343a40;
-    font-weight: bold;
-}
-
-.edu-item .descrip p {
-    font-size: 1.1rem;
-    color: #495057;
-}
-
-/* Certificate Link Icon */
-.certificate-link a {
-    font-size: 1.5rem;
-    color: #007bff;
-    text-decoration: none;
-    padding: 0.75rem;
-    border-radius: 50%;
-    background-color: #f1f3f5;
-    border: 2px solid #007bff;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
+/* Skill Card Styling */
+.skill-card {
+    background: #f0f4f8;
+    border-radius: 8px;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #1a1a1a;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
 }
 
-.certificate-link a:hover {
-    background-color: #007bff;
+.skill-card:hover {
+    background: #007bff;
     color: white;
-    border-color: #007bff;
-}
-
-/* Optional: Adjust size for the icon */
-.certificate-link i {
-    font-size: 1.5rem;
-}
-
-.skill-icon{
-    width: 70px;
-    height: 70px;
-    margin-left: 15px;
-    margin-top: 20px;
-    margin-bottom: 60px;
-}
-
-.programming h2{
-    padding: 10px;
+    transform: translateY(-5px);
 }
 
 /* Soft Skills Section */
 .soft {
-    background-color: #f8f9fa; /* Light background */
+    background-color: #f8f9fa;
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 100%;
-    margin: auto;
     margin: 20px auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 50px;
 }
 
-/* Title Styling */
+/* Soft Skills Title */
 .soft-title {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: #1c1f21;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
+    width: 100%;
 }
 
-/* Each Section Styling */
+/* Each Soft Skill Card */
 .soft-section {
     background: white;
     padding: 1.5rem;
-    margin-bottom: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* Section Headings */
 .soft-section h2 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     display: flex;
     align-items: center;
     gap: 10px;
     color: #151718;
-}
-
-/* Icons */
-.icon {
-    width: 30px;
 }
 
 /* List Styling */
@@ -261,37 +216,149 @@ h1, h2, h4 {
 }
 
 .soft-list li {
-    font-size: 1.1rem;
+    padding: 5px 0;
+    color: #333;
+}
+
+/* Icon Styling */
+.icon {
+    width: 35px;
+    height: 35px;
+}
+
+
+/* Achievements Section */
+#achievements {
+    width: 90%;
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    margin-top: 100px;
+    padding: 50px 0;
+}
+
+/* Achievements grid layout */
+.achives {
     display: flex;
-    align-items: center;
-    gap: 10px;
-    margin: 10px 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px; /* space between cards */
 }
 
-/* Links */
-.soft-list a {
-    text-decoration: none;
+/* Each card will take 1/3 width on desktop, 1/2 on tablet, full on mobile */
+.achievement-card {
+    flex: 1 1 calc(33.333% - 30px);
+    max-width: calc(33.333% - 30px);
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.achievement-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Image Styling */
+.award-img {
+    border-radius: 8px;
+    width: 90%;
+    max-height: 350px;
+    object-fit: cover;
+}
+
+/* Heading & Text */
+#achievements h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1c1f21;
+}
+
+.achievement-card h3 {
+    font-size: 1.3rem;
     color: #007bff;
-    transition: color 0.3s ease;
+    margin-top: 15px;
 }
 
-.soft-list a:hover {
-    color: #0056b3;
+.achievement-card p {
+    font-size: 1rem;
+    color: #555;
 }
 
-.card{
-    margin-bottom: 30px;
-}
-.card img{
-    width: 300px;
-    height: 300px;
-    margin: auto;
+
+
+
+/* Memories Section */
+#memories {
+    width: 90%;
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    margin-top: 100px;
+    padding: 50px 0;
 }
 
-button{
-    margin-bottom: 7px;
+/* Gallery Layout */
+.memories-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
 }
+
+.memory-card {
+    flex: 1 1 calc(33.333% - 30px);
+    max-width: calc(33.333% - 30px);
+    transition: all 0.3s ease;
+}
+
+.memory-card:hover {
+    transform: scale(1.03);
+}
+
+/* Image Styling */
+.memory-img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .achievement-card {
+        flex: 1 1 calc(50% - 20px);
+        max-width: calc(50% - 20px);
+    }
+
+    .memory-card {
+        flex: 1 1 calc(50% - 20px);
+        max-width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 576px) {
+    .achievement-card {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    .memory-card {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}
+
+
+
 .contact-section {
+    
     background: linear-gradient(to right, #f8f9fa, #eef1f6);
     padding: 50px 0;
     text-align: center;
